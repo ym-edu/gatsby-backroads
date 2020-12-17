@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ym-edu/gatsby-backroads/issues"
   },
-  "homepage": "https://github.com/ym-edu/gatsby-backroads#readme"
+  "homepage": "https://github.com/ym-edu/gatsby-backroads#readme",
+  "devDependencies": {
+    "gatsby-cli": "^2.16.1"
+  }
 }
