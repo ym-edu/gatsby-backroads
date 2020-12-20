@@ -3,7 +3,6 @@ import styles from '../css/footer.module.css'
 import links from '../constants/links'
 import socialLinks from '../constants/social-links'
 import {Link} from 'gatsby'
-import {FaRProject} from 'react-icons/fa'
 
 export default function Footer() {
   return (
