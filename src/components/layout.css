@@ -12,12 +12,12 @@
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
-/* * {
+/* Without this, SimpleHero goes past the vh and has margins around it. Adding this makes it flush with the screen an surrounding components. */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 body {
   font-family: "Lato", sans-serif;
