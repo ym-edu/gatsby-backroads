@@ -78,6 +78,7 @@ a {
   max-height: 600px;
   box-shadow: var(--lightShadow);
 }
+/* This makes the footer appear to stick to bottom where main wraps around all of the content of a page through <Layout/> component. Then all content within main will destribute outwards*/
 main {
   min-height: 100vh;
   display: flex;

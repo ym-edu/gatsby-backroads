@@ -1,4 +1,5 @@
 .footer {
+  /* This prevents the footer from stretching out to full height of the page when flex-direction is left as row, and defines whether the footer will stick to the top(margin bottom auto) or the bottom(margin top auto)*/
   margin-top: auto;
   background: var(--mainBlack);
   padding: 2rem;
